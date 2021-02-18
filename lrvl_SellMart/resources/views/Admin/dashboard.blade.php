@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome User {{ Auth::User()->name }}</h1>
+    <h1>Welocome Admin</h1><br>
     <a href="{{ url('/logout') }}">
         <button type="submit">Logout</button>
     </a>
