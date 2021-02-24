@@ -32,7 +32,7 @@
               </div>
             
 
-              <button class="btn btn-lg btn-secondary btn-block text-uppercase" type="submit">Login</button>
+              <button class="btn btn-lg btn-secondary btn-block text-uppercase" type="submit">Register</button>
               <hr class="my-4">
               <p>Already Have an Account? <a href="{{ url('/') }}">Sign In</a></p>
               
