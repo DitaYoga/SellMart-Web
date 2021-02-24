@@ -16,12 +16,12 @@
             <form action="{{ route('register-process') }}" method="POST" class="form-signin">
               {{ csrf_field() }}
               <div class="form-label-group">
-                <input type="text" id="inputNama" name="name" class="form-control" placeholder="Nama" required autofocus>
-                <label for="inputUserame">Nama</label>
+                <input type="text" id="inputNama" name="name" class="form-control" placeholder="Nama" required>
+                <label for="inputNama">Nama</label>
               </div>
 
               <div class="form-label-group">
-                <input type="email" id="inputUserame" name="email" class="form-control" placeholder="Username" required autofocus>
+                <input type="email" id="inputUserame" name="email" class="form-control" placeholder="Username" required>
                 <label for="inputUserame">Email</label>
               </div>
 

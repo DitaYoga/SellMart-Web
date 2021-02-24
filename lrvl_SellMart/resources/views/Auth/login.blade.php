@@ -14,8 +14,8 @@
           <div class="card-body">
             <h5 class="card-title text-center">Login</h5>
             <form action="{{ route('login-process') }}" method="POST" class="form-signin">
+              {{ csrf_field() }}
               <div class="form-label-group">
-                {{ csrf_field() }}
                 <input type="text" id="inputUserame" name="name" class="form-control" placeholder="Username" required autofocus>
                 <label for="inputUserame">Username</label>
               </div>

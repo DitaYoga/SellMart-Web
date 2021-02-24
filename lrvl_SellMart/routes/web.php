@@ -31,3 +31,5 @@ Route::post('register-process', [AuthController::class, 'register_process'])->na
 Route::get('login', [AuthController::class, 'login'])->name('login');
 Route::post('login-process', [AuthController::class, 'login_process'])->name('login-process');
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
+
+Route::get('index', [AuthController::class, 'index'])->name('index');

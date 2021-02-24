@@ -54,4 +54,9 @@ class AuthController extends Controller
         Auth::logout();
         return redirect('/');
     }
+
+    public function index()
+    {
+        return view('index');
+    }
 }
