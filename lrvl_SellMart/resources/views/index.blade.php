@@ -29,6 +29,7 @@ https://templatemo.com/tm-558-klassy-cafe
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
 
+
     </head>
     
     <body>
@@ -154,7 +155,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             <h6>Tentang Sell Mart</h6>
                             <h2>Kami Menyediakan Tanaman Hidroponik Untuk Anda</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -279,168 +280,110 @@ https://templatemo.com/tm-558-klassy-cafe
             </div>
             <main class="bdy2">
         <!-- ================ contact section start ================= -->
-        <br><br>
-        <div class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="text-center card-box">
-                            <div class="member-card pt-2 pb-2">
-                                <div class="thumb-lg member-thumb mx-auto"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="rounded-circle img-thumbnail" alt="profile-image"></div>
-                                <div class="">
-                                    <h4>I Putu Adi Perdana Utama</h4>
-                                    <p class="text-muted">Ketua <span>| </span><span><a href="#" class="text-pink">@SellMart-Web</a></span></p>
-                                </div>
-                                <div class="desc">
-                                    <p align="justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. 
-                                    </p>
-                                </div>  
-                                <a href="https://api.whatsapp.com/send?phone=6285804086639"><button type="button" class="btn btn-secondary mt-3 btn-rounded waves-effect w-md waves-light">Message Now</button></a>
-                                <br>
-                                <hr>
-                                <ul class="social-network social-circle">
-                                  <li><a href="https://instagram.com/erx.tuadi" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                                  <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                  <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                <div class="container py-7">
+                 <br><br>   
+                  <div class="row mb-5">
+                    <div class="col-md-6 order-md-2">
+                      <img src="assets/img/tuadi.jpg" class="img-fluid border-white border-w-5 w-50  w-lg-60 rounded-circle">
                     </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="text-center card-box">
-                            <div class="member-card pt-2 pb-2">
-                                <div class="thumb-lg member-thumb mx-auto"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="rounded-circle img-thumbnail" alt="profile-image"></div>
-                                <div class="">
-                                    <h4>I Gede Arista Winkayana</h4>
-                                    <p class="text-muted">Admin <span>| </span><span><a href="#" class="text-pink">@SellMart-Web</a></span></p>
-                                </div>
-                                <div class="desc">
-                                    <p align="justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur.
-                                    </p>
-                                </div>  
-                                <a href="https://api.whatsapp.com/send?phone=6281236034522"><button type="button" class="btn btn-secondary mt-3 btn-rounded waves-effect w-md waves-light">Message Now</button></a>
-                                <br>
-                                <hr>
-                                <ul class="social-network social-circle">
-                                  <li><a href="https://instagram.com/winka_bob" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                                  <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                  <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="col-md-6 flex-valign text-md-right">
+                      <h3 class="text-uppercase text-letter-spacing-xs mt-0 mb-1 text-dark font-weight-bold">
+                        I Putu Adi Perdana Utama
+                      </h3>
+                      <p class="text-muted">Leader <span>| </span><span><a href="#" class="text-pink">@SellMartWeb</a></span></p>
+                      <hr class="hr-white bg-dark w-70 ml-0 ml-md-auto mr-md-0 mb-3">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                      <br>  
+                          <ul class="social-network social-circle">
+                            <li><a href="https://instagram.com/erx.tuadi" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
                     </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="text-center card-box">
-                            <div class="member-card pt-2 pb-2">
-                                <div class="thumb-lg member-thumb mx-auto"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="rounded-circle img-thumbnail" alt="profile-image"></div>
-                                <div class="">
-                                    <h4>I Made Adi Wira Surya Kencana</h4>
-                                    <p class="text-muted">Front End <span>| </span><span><a href="#" class="text-pink">@SellMart-Web</a></span></p>
-                                </div>
-                                <div class="desc">
-                                    <p align="justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur.
-                                    </p>
-                                </div>  
-                                <a href="https://api.whatsapp.com/send?phone=6289697448955"><button type="button" class="btn btn-secondary mt-3 btn-rounded waves-effect w-md waves-light">Message Now</button></a>
-                                <br>
-                                <hr>
-                                <ul class="social-network social-circle">
-                                  <li><a href="https://instagram.com/erx.surya" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                                  <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                  <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                  </div>
+                  <br>  <br><br>
+                  <div class="row mb-5">
+                    <div class="col-md-6 text-md-right">
+                      <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Personal Trainer 2" class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
                     </div>
-                    <!-- end col -->
+                    <div class="col-md-6 flex-valign">
+                      <h3 class="text-uppercase text-letter-spacing-xs mt-0 mb-1 text-dark font-weight-bold">
+                        I Gede Arista Winkayana
+                      </h3>
+                      <p class="text-muted">Admin <span>| </span><span><a href="#" class="text-pink">@SellMartWeb</a></span></p>
+                      <hr class="hr-white bg-dark w-70 ml-0 ml-md-auto mr-md-0 mb-3">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                      <br>  
+                          <ul class="social-network social-circle">
+                            <li><a href="https://instagram.com/winka_bob" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                  </div>
+                  <br><br><br>
+                  <div class="row mb-5">
+                    <div class="col-md-6 order-md-2">
+                      <img src="assets/img/surya.jpg" class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
+                    </div>
+                    <div class="col-md-6 flex-valign text-md-right">
+                      <h3 class="text-uppercase text-letter-spacing-xs mt-0 mb-1 text-dark font-weight-bold">
+                        I Made Adi Wira Surya Kencana
+                      </h3>
+                      <p class="text-muted">Front End <span>| </span><span><a href="#" class="text-pink">@SellMartWeb</a></span></p>
+                      <hr class="hr-white bg-dark w-70 ml-0 ml-md-auto mr-md-0 mb-3">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                      <br>  
+                          <ul class="social-network social-circle">
+                            <li><a href="https://instagram.com/erx.surya" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                  </div>
+                  <br><br><br>
+                  <div class="row mb-5">
+                    <div class="col-md-6 text-md-right">
+                      <img src="assets/img/dita.jpg" class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
+                    </div>
+                    <div class="col-md-6 flex-valign">
+                      <h3 class="text-uppercase text-letter-spacing-xs mt-0 mb-1 text-dark font-weight-bold">
+                        I Made Dita Yoga Radisa
+                      </h3>
+                      <p class="text-muted">Back End <span>| </span><span><a href="#" class="text-pink">@SellMartWeb</a></span></p>
+                      <hr class="hr-white bg-dark w-70 ml-0 ml-md-auto mr-md-0 mb-3">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                      <br>  
+                          <ul class="social-network social-circle">
+                            <li><a href="https://instagram.com/dittayoga" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                  </div>
+                  <br><br>
+                  <div class="row mb-5">
+                    <div class="col-md-6 order-md-2">
+                      <img src="assets/img/aldi.jpg" class="img-fluid border-white border-w-5 w-50 w-md-80 w-lg-60 rounded-circle">
+                    </div>
+                    <div class="col-md-6 flex-valign text-md-right">
+                      <h3 class="text-uppercase text-letter-spacing-xs mt-0 mb-1 text-dark font-weight-bold">
+                        Aldi Suryanto
+                      </h3>
+                      <p class="text-muted">Marketing <span>| </span><span><a href="#" class="text-pink">@SellMartWeb</a></span></p>
+                      <hr class="hr-white bg-dark w-70 ml-0 ml-md-auto mr-md-0 mb-3">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                      <br>  
+                          <ul class="social-network social-circle">
+                            <li><a href="https://instagram.com/erx.aldi" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                  </div>
                 </div>
-
-                
-
-                <!-- end row -->
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="text-center card-box">
-                            <div class="member-card pt-2 pb-2">
-                                <div class="thumb-lg member-thumb mx-auto"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="rounded-circle img-thumbnail" alt="profile-image"></div>
-                                <div class="">
-                                    <h4>I Made Dita Yoga Radisa</h4>
-                                    <p class="text-muted">Back End<span> | </span><span><a href="#" class="text-pink">@SellMart-Web</a></span></p>
-                                </div>
-                                <div class="desc">
-                                    <p align="justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. 
-                                    </p>
-                                </div>  
-                                <a href="https://api.whatsapp.com/send?phone=6285854323229"><button type="button" class="btn btn-secondary mt-3 btn-rounded waves-effect w-md waves-light">Message Now</button></a>
-                                <br><hr>
-                                <ul class="social-network social-circle">
-                                  <li><a href="https://instagram.com/dittayoga " class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                                  <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                  <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-lg-4">
-                        <div class="text-center card-box">
-                            <div class="member-card pt-2 pb-2">
-                                <div class="thumb-lg member-thumb mx-auto"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="rounded-circle img-thumbnail" alt="profile-image"></div>
-                                <div class="">
-                                    <h4>Aldi Suryanto</h4>
-                                    <p class="text-muted">Pemasaran<span> | </span><span><a href="#" class="text-pink">@SellMart-Web</a></span></p>
-                                </div>
-                                <div class="desc">
-                                    <p align="justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur.
-                                    </p>
-                                </div>  
-                                <a href="https://api.whatsapp.com/send?phone=6285851413429"><button type="button" class="btn btn-secondary mt-3 btn-rounded waves-effect w-md waves-light">Message Now</button></a>
-                                <br>
-                                <hr>
-                                <ul class="social-network social-circle">
-                                  <li><a href="https://instagram.com/erx.aldi" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                                  <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                  <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- container -->
-        </div>
         <!-- ================ contact section end ================= -->
-    </main>
+             </main>
         </div>
     </section>
     <!-- ***** Chefs Area Ends ***** -->
