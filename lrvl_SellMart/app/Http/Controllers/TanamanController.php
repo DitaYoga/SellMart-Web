@@ -18,6 +18,11 @@ class TanamanController extends Controller
     public function index()
     {
         $tanaman= Tanaman::get();
+        return view('tanaman',['tanaman'=>$tanaman]);
+    }
+    public function dashboard()
+    {
+        $tanaman= Tanaman::get();
         return view('admin.tanaman',['tanaman'=>$tanaman]);
     }
 

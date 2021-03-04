@@ -25,7 +25,7 @@ Route::group(['middleware' => ['auth', 'CheckLevel:user']], function(){
 //admin//
 Route::group(['middleware' => ['auth', 'CheckLevel:admin']], function(){
     Route::get('dashboard', [AdminController::class, 'index']);
-    
+    Route::get('/admin/tanaman', [TanamanController::class, 'dashboard']);
     Route::get('/admin/tambah', [TanamanController::class, 'create']);
     Route::post('/admin/tambah/proses', [TanamanController::class, 'store'])->name('proses_tambah');
     Route::get('/admin/edit/{id}', [TanamanController::class, 'edit']);

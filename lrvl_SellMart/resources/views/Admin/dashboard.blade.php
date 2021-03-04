@@ -11,5 +11,6 @@
     <a href="{{ url('/logout') }}">
         <button type="submit">Logout</button>
     </a>
+    <a href="{{ url('/admin/tanaman') }}">Tanaman</a>
 </body>
 </html>
