@@ -27,8 +27,8 @@
                 <input type="number" class="form-control" name="price" id="price" value="{{ $tanaman->price }}">
             </div>
             <div class="form-group">
-                <label for="photo">Photo</label>
-                <input type="file" class="form-control" name="photo" id="photo" value="{{ $tanaman->photo }}">
+                <label for="photo">Photo</label><br>
+                <input type="file" name="photo" id="photo" value="{{ $tanaman->photo }}">
             </div>
             <div class="form-group">
                 <label for="stok">Stok</label>

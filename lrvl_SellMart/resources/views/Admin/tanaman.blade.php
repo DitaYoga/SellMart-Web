@@ -33,7 +33,7 @@
                     <td>{{ $t->name }}</td>
                     <td>{{ Str::limit($t->deskripsi, 50, ' ...') }}</td>
                     <td>{{ $t->price }}</td>
-                    <td><img class="img" src="{{ asset('/image/'.$t->photo) }}" style="width:120px"></td>
+                    <td><img class="img" src="{{ asset('/image/'.$t->photo) }}" style="width:200px; height: 200px;"></td>
                     <td>{{ $t->stok }}</td>
                     <td>
                         <a href="{{ url('admin/edit/'.$t->id) }}" class="btn btn-warning btn-sm">Edit</a>
