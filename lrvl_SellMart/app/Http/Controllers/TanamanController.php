@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use App\Tanaman;
+use\File;
+use Illuminate\Support\Str;
 
 class TanamanController extends Controller
 {
@@ -25,7 +28,7 @@ class TanamanController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.tambah');
     }
     public function addcart($id)
     {
@@ -83,7 +86,30 @@ class TanamanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'deskripsi' => 'required',
+            'price' => 'required',
+            'stok' => 'required',
+            'photo' => 'required|file|image|mimes:jpeg,png,jpg',
+        ]);
+
+        // Menyimpan data gambar yang diupload yang disimpan di variable gambar
+        $gambar= $request->file('photo');
+        $file_name= date('Y-m-d')."_".$gambar->getClientOriginalName();
+
+        // isi dengan nama folder tempat kemana gambar diupload
+        $tujuan_upload= 'image';
+        $gambar->move($tujuan_upload, $file_name);
+
+        Tanaman::create([
+            'name' => $request->name,
+            'deskripsi' => $request->deskripsi,
+            'price' => $request->price,
+            'stok' => $request->stok,
+            'photo' => $file_name,
+        ]);
+        return redirect('/tanaman');
     }
 
     /**
@@ -105,7 +131,8 @@ class TanamanController extends Controller
      */
     public function edit($id)
     {
-        //
+        $tanaman= Tanaman::where('id', $id)->first();
+        return view('admin.edit', compact('tanaman'));
     }
 
     /**
@@ -117,7 +144,50 @@ class TanamanController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $tanaman= Tanaman::where('id', $id)->first();
+
+        if($request->hasFile('gambar')){
+            $request->validate([
+                'name' => 'required',
+                'deskripsi' => 'required',
+                'price' => 'required',
+                'stok' => 'required',
+                'photo' => 'required|file|image|mimes:jpeg,png,jpg',
+            ]);
+
+            // Menyimpan data gambar yang diupload yang disimpan di variable gambar
+            $gambar= $request->file('photo');
+            $file_name= date('Y-m-d')."_".$gambar->getClientOriginalName();
+            // mengambil data gambar yang sesuai
+            $request->file('photo')->storeAs('public/image',$file_name);
+            // isi dengan nama folder tempat kemana gambar diupload
+            $tujuan_upload = 'image';
+            $gambar->move($tujuan_upload,$file_name);
+            File::delete('image/'.$tanaman->gambar);
+
+            $tanaman->update([
+                'name' => $request->name,
+                'deskripsi' => $request->deskripsi,
+                'price' => $request->price,
+                'stok' => $request->stok,
+                'photo' => $file_name,
+            ]);
+        } else{
+            $request->validate([
+                'name' => 'required',
+                'deskripsi' => 'required',
+                'price' => 'required',
+                'stok' => 'required',
+            ]);
+
+            $tanaman->update([
+                'name' => $request->name,
+                'deskripsi' => $request->deskripsi,
+                'price' => $request->price,
+                'stok' => $request->stok,
+            ]);
+        }
+        return redirect('/tanaman');
     }
 
     /**
@@ -128,6 +198,12 @@ class TanamanController extends Controller
      */
     public function destroy($id)
     {
-        //
+        // hapus file
+        $tanaman = Tanaman::where('id', $id)->first();
+        File::delete('image/'.$tanaman->gambar);
+
+        // hapus data
+        Tanaman::where('id', $id)->delete();
+        return redirect('/tanaman');
     }
 }
