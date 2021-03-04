@@ -164,9 +164,10 @@ body {
 }
 .profile-head h5{
     color: #333;
+    margin-top: 50px;
 }
 .profile-head h6{
-    color: #0062cc;
+    color: gray;
 }
 .profile-edit-btn{
     border: none;
@@ -222,7 +223,7 @@ body {
 }
 .profile-tab p{
     font-weight: 600;
-    color: #0062cc;
+    color: gray;
 }
 
 .col-md-2 .btn-secondary{
@@ -233,6 +234,3 @@ a.btn-secondary {
  text-decoration: none;
 }
 
-label.control-label{
-  color: #fff;
-}

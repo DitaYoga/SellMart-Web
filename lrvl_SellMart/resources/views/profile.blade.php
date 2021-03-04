@@ -20,10 +20,7 @@
                                     <h5>
                                         SELL MART
                                     </h5>
-                                    <h6>
-                                        Web Developer and Designer
-                                    </h6>
-                                    <p class="proile-rating">RANKINGS : <span>8/10</span></p>
+                                    <br><br>
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
@@ -40,11 +37,12 @@
                     <div class="col-md-4">
                         <div class="profile-work">
                             <p>Status</p>
-                            <a href="">Student</a><br/>
+                            <h6>Student</h6><br/>
                     
                             <p>SKILLS</p>
-                            <a href="">Web Designer</a><br/>
-                            <a href="">Web Developer</a><br/>
+                            <h6>Web Developer</h6>
+                            <h6>Web Design</h6>
+
                             
                         </div>
                     </div>
@@ -91,6 +89,15 @@
                                                 <p>Kebo Iwa Stret</p>
                                             </div>
                                         </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Address</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Kebo Iwa Stret</p>
+                                            </div>
+                                        </div>
+                                        
                             </div>
                         </div>
                     </div>

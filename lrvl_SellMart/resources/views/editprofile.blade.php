@@ -2,11 +2,11 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <link rel="stylesheet" href="assets/css/all.css">
-<div class="container">
+<div class="container emp-profile">
   <center>
-    <h1 style="color: white">Edit Profile</h1>
+    <h1>Edit Profile</h1>
   </center> 
-  	<hr style="height:1px;border:none;color:#fff;background-color:#fff;" />
+  	<hr/>
 	<div class="row">
       <!-- left column -->
       <div class="col-md-3">
@@ -20,33 +20,45 @@
         
         <form class="form-horizontal" role="form">
           <div class="form-group">
-            <label class="col-lg-3 control-label">User Id :</label>
+            <label class="col-lg-3 control-label">User Id</label>
             <div class="col-lg-8">
               <input class="form-control" type="text" value="sellmart123">
             </div>
           </div>
           <div class="form-group">
-            <label class="col-lg-3 control-label">Name :</label>
+            <label class="col-lg-3 control-label">Name</label>
             <div class="col-lg-8">
               <input class="form-control" type="text" value="sellmart">
             </div>
           </div>
           <div class="form-group">
-            <label class="col-lg-3 control-label">Email :</label>
+            <label class="col-lg-3 control-label">Email</label>
             <div class="col-lg-8">
               <input class="form-control" type="text" value="sellmartcompany@gmail.com">
             </div>
           </div>
           <div class="form-group">
-            <label class="col-lg-3 control-label">Phone :</label>
+            <label class="col-lg-3 control-label">Phone</label>
             <div class="col-lg-8">
               <input class="form-control" type="text" value="123 456 7890">
             </div>
           </div>
           <div class="form-group">
-            <label class="col-md-3 control-label">Address :</label>
+            <label class="col-md-3 control-label">Address</label>
             <div class="col-md-8">
               <input class="form-control" type="text" value="kebo iwa street">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-3 control-label">Status</label>
+            <div class="col-md-8">
+              <input class="form-control" type="text" value="student">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-3 control-label">Skills</label>
+            <div class="col-md-8">
+              <input class="form-control" type="text" value="Web Developer">
             </div>
           </div>
           <div class="form-group">
