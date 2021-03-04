@@ -89,14 +89,6 @@
                                                 <p>Kebo Iwa Stret</p>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Address</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Kebo Iwa Stret</p>
-                                            </div>
-                                        </div>
                                         
                             </div>
                         </div>
