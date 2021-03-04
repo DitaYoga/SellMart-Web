@@ -12,6 +12,8 @@
     <div class="container mt-3">
         <h3>Daftar Tanaman</h3>
         <a href="{{ url('admin/tambah') }}" class="btn btn-primary btn-sm">Tambah Data</a>
+        <a href="{{ url('/logout') }}" class="btn btn-danger btn-sm">Logout</a>
+        <br><br>
         <table class="table">
             <thead>
                 <tr>
@@ -31,11 +33,11 @@
                     <td>{{ $t->name }}</td>
                     <td>{{ Str::limit($t->deskripsi, 50, ' ...') }}</td>
                     <td>{{ $t->price }}</td>
-                    <td><img class="img" src="{{ asset('/image/'.$t->photo) }}" alt=""></td>
+                    <td><img class="img" src="{{ asset('/image/'.$t->photo) }}" style="width:120px"></td>
                     <td>{{ $t->stok }}</td>
                     <td>
-                        <a href="{{ url('admin/edit/'.$t->id) }}" class="badge badge-warning badge-sm">Edit</a>
-                        <a href="{{ url('admin/delete/'.$t->id) }}" class="badge badge-danger badge-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini ?')">Hapus</a>
+                        <a href="{{ url('admin/edit/'.$t->id) }}" class="btn btn-warning btn-sm">Edit</a>
+                        <a href="{{ url('admin/delete/'.$t->id) }}" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini ?')">Hapus</a>
                     </td>
                 </tr>
                 @endforeach

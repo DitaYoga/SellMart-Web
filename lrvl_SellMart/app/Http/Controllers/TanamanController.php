@@ -114,7 +114,7 @@ class TanamanController extends Controller
             'stok' => $request->stok,
             'photo' => $file_name,
         ]);
-        return redirect('/tanaman');
+        return redirect('/admin/tanaman');
     }
 
     /**
@@ -192,7 +192,7 @@ class TanamanController extends Controller
                 'stok' => $request->stok,
             ]);
         }
-        return redirect('/tanaman');
+        return redirect('/admin/tanaman');
     }
 
     /**
@@ -209,6 +209,6 @@ class TanamanController extends Controller
 
         // hapus data
         Tanaman::where('id', $id)->delete();
-        return redirect('/tanaman');
+        return redirect('/admin/tanaman');
     }
 }

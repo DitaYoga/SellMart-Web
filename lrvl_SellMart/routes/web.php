@@ -19,9 +19,9 @@ use App\Http\Controllers\TanamanController;
 
 //user//
 Route::group(['middleware' => ['auth', 'CheckLevel:user']], function(){
-    Route::get('/', [UserController::class, 'index']);
+    
 });
-
+Route::get('/', [UserController::class, 'index']);
 //admin//
 Route::group(['middleware' => ['auth', 'CheckLevel:admin']], function(){
     Route::get('dashboard', [AdminController::class, 'index']);

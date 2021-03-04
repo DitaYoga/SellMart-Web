@@ -75,8 +75,12 @@ https://templatemo.com/tm-558-klassy-cafe
                             <li class="scroll-to-section"><a href="#menu">Menu</a></li>
                             <li class="scroll-to-section"><a href="{{ url('/tanaman') }}">Tanaman</a></li>
                             <li class="scroll-to-section"><a href="#chefs">Our Teams</a></li> 
+                            <?php 
+                                if (session()->get('login') != null) {
+                                    
+                            ?>
                             <li class="scroll-to-section"><a href="{{ url('/logout') }}">Logout</a></li> 
-                            
+                            <?php } ?>
                             <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
                             <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li>
                             <li class="scroll-to-section"><a href="profile">Profile</a></li> 
