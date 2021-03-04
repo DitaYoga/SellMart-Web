@@ -35,3 +35,6 @@ Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('index', [AuthController::class, 'index'])->name('index');
 Route::get('tanaman', [TanamanController::class, 'index']);
+
+Route::get('profile', [AuthController::class, 'profile']);
+Route::get('editprofile', [AuthController::class, 'editprofile']);
