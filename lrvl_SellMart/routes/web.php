@@ -25,13 +25,14 @@ Route::group(['middleware' => ['auth', 'CheckLevel:user']], function(){
 //admin//
 Route::group(['middleware' => ['auth', 'CheckLevel:admin']], function(){
     Route::get('dashboard', [AdminController::class, 'index']);
-    Route::get('/tanaman', [TanamanController::class, 'index']);
+    
     Route::get('/admin/tambah', [TanamanController::class, 'create']);
     Route::post('/admin/tambah/proses', [TanamanController::class, 'store'])->name('proses_tambah');
     Route::get('/admin/edit/{id}', [TanamanController::class, 'edit']);
     Route::patch('/admin/update/{id}', [TanamanController::class, 'update'])->name('proses_edit');
     Route::get('/admin/delete/{id}', [TanamanController::class, 'destroy']);
 });
+Route::get('/tanaman', [TanamanController::class, 'index']);
 Route::get('addcart/{id}', [TanamanController::class, 'addcart']);
 Route::get('deletecart/{id}/{index}', [TanamanController::class, 'deletecart']);
 Route::get('chart', [TanamanController::class, 'viewcart']);
