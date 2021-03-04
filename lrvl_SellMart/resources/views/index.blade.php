@@ -102,7 +102,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             <br>
                             <h6>THE BEST EXPERIENCE</h6>
                             <div class="main-white-button scroll-to-section">
-                                <a href="#">Silahkan Beli!</a>
+                                <a href="#">Silahkan Beli!!</a>
                             </div>
                         </div>
                     </div>
