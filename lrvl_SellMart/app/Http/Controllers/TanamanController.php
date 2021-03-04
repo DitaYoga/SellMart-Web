@@ -41,7 +41,38 @@ class TanamanController extends Controller
     }
     public function viewcart()
     {
+        session_start();
         return view('viewcart');
+    }
+    public function clearcart()
+    {
+        session_start();
+        unset($_SESSION['cart']);
+
+        return redirect('chart');
+    }
+    public function savecart(request $request)
+    {
+        session_start();
+        if(isset($_POST['save'])){
+            foreach($request->indexes as $key){
+                $_SESSION['qty_array'][$key] = $_POST['qty_'.$key];
+            }
+        }
+        return redirect('chart');
+    }
+    public function deletecart($id,$index)
+    {
+        session_start();
+
+        //remove the id from our cart array
+        $key = array_search($id, $_SESSION['cart']);    
+        unset($_SESSION['cart'][$key]);
+
+        unset($_SESSION['qty_array'][$index]);
+        //rearrange array after unset
+        $_SESSION['qty_array'] = array_values($_SESSION['qty_array']);
+        return redirect('chart');
     }
 
     /**
