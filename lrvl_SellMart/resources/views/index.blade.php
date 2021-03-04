@@ -81,7 +81,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             <li class="scroll-to-section"><a href="profile">Profile</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
-                            <span>Menu</span>
+                            <span>Menu</span><p></p>
                         </a>
                         <!-- ***** Menu End ***** -->
                     </nav>

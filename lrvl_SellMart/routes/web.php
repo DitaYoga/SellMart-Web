@@ -33,7 +33,10 @@ Route::group(['middleware' => ['auth', 'CheckLevel:admin']], function(){
     Route::get('/admin/delete/{id}', [TanamanController::class, 'destroy']);
 });
 Route::get('addcart/{id}', [TanamanController::class, 'addcart']);
+Route::get('deletecart/{id}/{index}', [TanamanController::class, 'deletecart']);
 Route::get('chart', [TanamanController::class, 'viewcart']);
+Route::post('savecart', [TanamanController::class, 'savecart']);
+Route::get('clearcart', [TanamanController::class, 'clearcart']);
 Route::get('register', [AuthController::class, 'register'])->name('register');
 Route::post('register-process', [AuthController::class, 'register_process'])->name('register-process');
 Route::get('login', [AuthController::class, 'login'])->name('login');
