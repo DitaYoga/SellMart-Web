@@ -117,4 +117,15 @@ body {
   color: gray;
  }
 
+.main-black-button a {
+    font-size: 13px;
+    color: gray;
+    margin: auto;
+    background-color: #000;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: all .3s;
+}
 

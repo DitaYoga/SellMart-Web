@@ -61,7 +61,7 @@
 						$total = 0;
 						if(!empty($_SESSION['cart'])){
 						//connection
-						$conn = new mysqli('localhost', 'root', '', 'database');
+						$conn = new mysqli('localhost', 'root', '', 'db_sellmart');
 						//create array of initail qty which is 1
  						$index = 0;
  						if(!isset($_SESSION['qty_array'])){

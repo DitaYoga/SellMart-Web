@@ -73,7 +73,7 @@ unset($_SESSION['qty_array']);
 
 
 		//connection
-		$conn = new mysqli('localhost', 'root', '', 'database');
+		$conn = new mysqli('localhost', 'root', '', 'db_sellmart');
 
 		$sql = "SELECT * FROM products";
 		$query = $conn->query($sql);

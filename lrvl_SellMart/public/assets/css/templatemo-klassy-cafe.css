@@ -1754,3 +1754,18 @@ h6.my-0{
     font-size: 15px;
 }
 
+.main-black-button a {
+    font-size: 13px;
+    color: white;
+    margin: auto;
+    background-color: grey;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: all .3s;
+}
+.main-black-button{
+  margin: 30px auto;
+  width: 105px;
+}

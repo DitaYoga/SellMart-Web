@@ -14,7 +14,7 @@ class TanamanController extends Controller
      */
     public function index()
     {
-        $tanaman= Tanaman::latest()->get();
+        $tanaman= Tanaman::get();
         return view('tanaman',['tanaman'=>$tanaman]);
     }
 

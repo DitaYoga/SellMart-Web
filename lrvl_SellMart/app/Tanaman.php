@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Tanaman extends Model
 {
-    protected $table = 'tanaman';
+    protected $table = 'products';
     protected $fillable = [
-        'nama','deskripsi','harga','stok','foto','created_at'
+        'name','deskripsi','price','stok','foto',
     ];
 }

@@ -75,15 +75,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             <li class="scroll-to-section"><a href="#menu">Menu</a></li>
                             <li class="scroll-to-section"><a href="{{ url('/tanaman') }}">Tanaman</a></li>
                             <li class="scroll-to-section"><a href="#chefs">Our Teams</a></li> 
-                            <li class="submenu">
-                                <a href="javascript:;">Features</a>
-                                <ul>
-                                    <li><a href="#">Features Page 1</a></li>
-                                    <li><a href="#">Features Page 2</a></li>
-                                    <li><a href="#">Features Page 3</a></li>
-                                    <li><a href="#">Features Page 4</a></li>
-                                </ul>
-                            </li>
+                            
                             <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
                             <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li> 
                         </ul>        
@@ -262,6 +254,9 @@ https://templatemo.com/tm-558-klassy-cafe
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="main-black-button">
+                  <a href="{{ url('/tanaman') }}">Belanja</a>
                 </div>
             </div>
         </div>
