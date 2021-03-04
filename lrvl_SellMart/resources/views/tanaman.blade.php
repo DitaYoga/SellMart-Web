@@ -161,7 +161,7 @@ https://templatemo.com/tm-558-klassy-cafe
         <div class="items">
             @foreach ($tanaman as $t)
             <div class="box">
-                <img src="assets/imagess/{{$t->photo}} ?>">
+                <img src="assets/imagess/{{$t->photo}}">
                 <center><strong>{{$t->name}}({{$t->stok}})</strong></center> 
                 <div class="foot">
                     <p class="pull-left"><b>Rp.{{$t->price}}</b></p>
