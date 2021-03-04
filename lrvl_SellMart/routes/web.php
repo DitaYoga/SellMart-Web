@@ -26,7 +26,8 @@ Route::group(['middleware' => ['auth', 'CheckLevel:user']], function(){
 Route::group(['middleware' => ['auth', 'CheckLevel:admin']], function(){
     Route::get('dashboard', [AdminController::class, 'index']);
 });
-
+Route::get('addcart/{id}', [TanamanController::class, 'addcart']);
+Route::get('chart', [TanamanController::class, 'viewcart']);
 Route::get('register', [AuthController::class, 'register'])->name('register');
 Route::post('register-process', [AuthController::class, 'register_process'])->name('register-process');
 Route::get('login', [AuthController::class, 'login'])->name('login');

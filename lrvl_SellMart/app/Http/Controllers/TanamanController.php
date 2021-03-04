@@ -27,6 +27,22 @@ class TanamanController extends Controller
     {
         //
     }
+    public function addcart($id)
+    {
+        session_start();
+        if(!in_array($id, $_SESSION['cart'])){
+            array_push($_SESSION['cart'], $id);
+            $_SESSION['message'] = 'Product added to cart';
+        }
+        else{
+            $_SESSION['message'] = 'Product already in cart';
+        }
+        return redirect('/tanaman');
+    }
+    public function viewcart()
+    {
+        return view('viewcart');
+    }
 
     /**
      * Store a newly created resource in storage.
