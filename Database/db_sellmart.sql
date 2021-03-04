@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 04, 2021 at 03:56 PM
+-- Generation Time: Mar 04, 2021 at 06:21 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.2.33
 
@@ -91,11 +91,10 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `deskripsi`, `price`, `photo`, `stok`, `created_at`, `updated_at`) VALUES
-(1, 'Selada', 'Loremm ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 9000, 'images/selada.jpg', 9, NULL, '2021-03-04 06:42:30'),
-(2, 'Sawi', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 8000, 'images/sawi.jpg', 8, NULL, NULL),
-(3, 'Kangkung', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 5000, 'images/kangkung.jpg', 6, NULL, NULL),
-(4, 'Cabai', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 12000, 'images/cabai.jpg', 2, NULL, NULL),
-(9, 'Daun Bawang', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 7000, 'images/hydro1.jpg', 5, NULL, NULL);
+(11, 'cabai', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 12000, '2021-03-04_cabai.jpg', 10, '2021-03-04 07:02:45', '2021-03-04 07:02:45'),
+(12, 'Selada', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 10000, '2021-03-04_selada.jpg', 6, '2021-03-04 09:12:21', '2021-03-04 09:12:21'),
+(13, 'Sawi', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 8000, '2021-03-04_sawi.jpg', 10, '2021-03-04 09:13:27', '2021-03-04 09:13:27'),
+(14, 'Kangkung', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do eiusmod teme.', 7000, '2021-03-04_kangkung.jpg', 12, '2021-03-04 09:13:47', '2021-03-04 09:13:47');
 
 -- --------------------------------------------------------
 
@@ -209,7 +208,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `tanaman`
