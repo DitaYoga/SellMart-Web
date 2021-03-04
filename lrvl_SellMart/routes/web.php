@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\TanamanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +34,4 @@ Route::post('login-process', [AuthController::class, 'login_process'])->name('lo
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('index', [AuthController::class, 'index'])->name('index');
+Route::get('tanaman', [TanamanController::class, 'index']);

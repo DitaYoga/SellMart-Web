@@ -73,6 +73,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             </li>
                         -->
                             <li class="scroll-to-section"><a href="#menu">Menu</a></li>
+                            <li class="scroll-to-section"><a href="{{ url('/tanaman') }}">Tanaman</a></li>
                             <li class="scroll-to-section"><a href="#chefs">Our Teams</a></li> 
                             <li class="submenu">
                                 <a href="javascript:;">Features</a>
