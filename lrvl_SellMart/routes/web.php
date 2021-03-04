@@ -25,6 +25,12 @@ Route::group(['middleware' => ['auth', 'CheckLevel:user']], function(){
 //admin//
 Route::group(['middleware' => ['auth', 'CheckLevel:admin']], function(){
     Route::get('dashboard', [AdminController::class, 'index']);
+    Route::get('/tanaman', [TanamanController::class, 'index']);
+    Route::get('/admin/tambah', [TanamanController::class, 'create']);
+    Route::post('/admin/tambah/proses', [TanamanController::class, 'store'])->name('proses_tambah');
+    Route::get('/admin/edit/{id}', [TanamanController::class, 'edit']);
+    Route::patch('/admin/update/{id}', [TanamanController::class, 'update'])->name('proses_edit');
+    Route::get('/admin/delete/{id}', [TanamanController::class, 'destroy']);
 });
 Route::get('addcart/{id}', [TanamanController::class, 'addcart']);
 Route::get('chart', [TanamanController::class, 'viewcart']);
@@ -35,7 +41,6 @@ Route::post('login-process', [AuthController::class, 'login_process'])->name('lo
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('index', [AuthController::class, 'index'])->name('index');
-Route::get('tanaman', [TanamanController::class, 'index']);
 
 Route::get('profile', [AuthController::class, 'profile']);
 Route::get('editprofile', [AuthController::class, 'editprofile']);
