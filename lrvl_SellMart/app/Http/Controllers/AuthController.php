@@ -59,4 +59,15 @@ class AuthController extends Controller
     {
         return view('index');
     }
+
+
+    public function profile()
+    {
+        return view('profile');
+    }
+
+    public function editprofile()
+    {
+        return view ('editprofile');
+    }
 }
