@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
 	  <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 

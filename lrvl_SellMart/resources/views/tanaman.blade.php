@@ -77,6 +77,7 @@ https://templatemo.com/tm-558-klassy-cafe
             border: 2px solid grey;
             padding: 5px;
             margin-top: 5px;
+            margin-left: 100px;
 
         }
         .rowmessage{
@@ -158,9 +159,10 @@ https://templatemo.com/tm-558-klassy-cafe
     ?>
 
         <a class="linkcart" href="{{url('chart')}}"><span class="badge"><?php echo count($_SESSION['cart']); ?></span> Cart <span class="glyphicon glyphicon-shopping-cart"></span></a>
+        <br><br><br>
         <div class="items">
             @foreach ($tanaman as $t)
-            <div class="box">
+        <!--     <div class="box">
                 {{-- <img src="assets/imagess/{{$t->photo}}"> --}}
                 <img class="img" src="{{ asset('/image/'.$t->photo) }}" alt="">
                 <center><strong>{{$t->name}}({{$t->stok}})</strong></center> 
@@ -169,6 +171,19 @@ https://templatemo.com/tm-558-klassy-cafe
                     <span class="pull-right"><a href="addcart/{{$t->id}}" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-plus"></span> Cart</a></span>
                 </div>
             </div>
+ -->  
+            <div class="card" style="width: 18rem;">
+                {{-- <img src="assets/imagess/{{$t->photo}}"> --}}
+                <img class="card-img-top" src="{{ asset('/image/'.$t->photo) }}" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">{{$t->name}}({{$t->stok}})</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p><br>
+                    <p><b>Rp.{{$t->price}}</b></p><br>
+                    <span class="pull-right"><a href="addcart/{{$t->id}}" class="btn btn-secondary btn-sm"><span class="glyphicon glyphicon-plus"></span> Cart</a></span>
+                </div>
+            </div>
+
             @endforeach
         </div>
     </div>
